@@ -1,0 +1,42 @@
+body{
+    background-image: url("BlurBackgroundCLock.jpg");
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.clock{
+    height: 300px;
+    width: 300px;
+    color: rgb(0,0,0,0);
+    border: 15px solid white;
+    border-radius: 50%;
+    align-self: center;
+    position: relative;
+}
+.hand{
+    width: 140px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    transform-origin: 100% 50% 0;
+    transform: rotate(90deg);
+    
+}
+.minute{
+    position: absolute;
+    width: 130px;
+    left: 20px;
+}
+.second{
+    background-color: rgb(44, 44, 44);
+    height: 3.5px;
+}
+.hour{
+    position: absolute;
+    width: 120px;
+    left: 30px;
+   
+}
